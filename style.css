@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    left: 0%;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 1px 1px rgb(115, 84, 84);
+
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(191, 176, 176);
+    justify-content: space-around;
+
+}
+
+div {
+    margin: 5px;
+}
+
+.box div {
+    border-color: black;
+    border: 3px;
+    border-style: solid;
+    width: 220px;
+    height: 220px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.box img:hover {
+    transform: scale(1.1);
+    transition: 1ss;
+}
